@@ -23,8 +23,8 @@ project_outline: "[[00-project/01-project-outline]]"
   5. Az új/módosult adatok betöltődnek a központi ténytáblába.
 
 -  **Nem ideális esetek:** 
-  - API hiba esetén (pl. rate limit, csatlakozási hiba) a rendszer hibaüzenettel jelez, és új próbát tesz a következő futáskor.
-  - Hibás adatok esetén a rendszer a staging rétegből nem engedi tovább a hibás adatokat a ténytáblába, és hibaüzenettel jelez.
+     - API hiba esetén (pl. rate limit, csatlakozási hiba) a rendszer hibaüzenettel jelez, és új próbát tesz a következő futáskor.
+     - Hibás adatok esetén a rendszer a staging rétegből nem engedi tovább a hibás adatokat a ténytáblába, és hibaüzenettel jelez.
 - **Utófeltétel:** Az adatok betöltődnek a ténytáblába, elemzésre kész állapotban és jegyezve van az adatgyűjtés időpontja illetve forrása.
 
 ### Adatok elemzése
