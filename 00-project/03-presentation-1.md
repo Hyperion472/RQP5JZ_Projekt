@@ -45,6 +45,7 @@ A cél egy elemzésre alkalmas egységes adatbázis.
 ## Tervezett hatókör
 
 ### Tartalmazza:
+- Elemzett játékok: Cyberpunk 2077, GTA V, Counter-Strike 2
 - Adatgyűjtés Steam-ről és Youtube-ról
 - Szöveg és metaadatok kezelése
 - Egységesítés
